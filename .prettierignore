@@ -1,0 +1,14 @@
+# Compiled output
+/dist/*
+/tmp
+/out-tsc
+
+# Dependencies
+/node_modules
+
+# Configuration Files
+package-lock.json
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
+.gitignore

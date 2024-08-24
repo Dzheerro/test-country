@@ -1,4 +1,4 @@
 export const environment = {
-    production: true,
-    APIURL: 'https://date.nager.at/'
+  production: true,
+  APIURL: 'https://date.nager.at/'
 };

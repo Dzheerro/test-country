@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './country.component.html',
   styleUrl: './country.component.scss'
 })
-export class CountryComponent {
-
-}
+export class CountryComponent {}
