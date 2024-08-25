@@ -1,1 +1,12 @@
-<p>navbar works!</p>
+<form [formGroup]="formGroup">
+  <p-autoComplete
+    formControlName="selectedCountry"
+    [suggestions]="filteredCountries"
+    field="countryCode"
+    dropdown="false"
+    [forceSelection]="true"
+    (completeMethod)="onSearchCountry($event)"
+    (onSelect)="onSelect(filteredCountries.toString())"
+    placeholder="Enter Country Code">
+  </p-autoComplete>
+</form>
